@@ -48,3 +48,8 @@ tasks.withType(Test) {
     }
 }
 
+tasks.register("mainPage_test", Test) {
+    useJUnitPlatform {
+        includeTags("mainPage")
+    }
+}
