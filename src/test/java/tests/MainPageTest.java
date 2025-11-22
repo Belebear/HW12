@@ -16,7 +16,7 @@ public class MainPageTest extends BaseTest {
     PopupElement popupElement = new PopupElement();
 
     @Test
-    @DisplayName("Проверка позиций в каталоге")
+    @DisplayName("Проверка наличия позиций в выпадющем списке 'Каталог'")
     @Tag("mainPage")
     void checkInNavigationBarTest() {
 
@@ -71,7 +71,7 @@ public class MainPageTest extends BaseTest {
     }
 
     @Test
-    @DisplayName("Проверка категорий")
+    @DisplayName("Проверка наличия категорий на главной странице")
     @Tag("mainPage")
     void checkCategoryBarTest() {
         step("Открытие главной страницы", () -> {
@@ -98,7 +98,7 @@ public class MainPageTest extends BaseTest {
     }
 
     @Test
-    @DisplayName("Проверка ассортимента по алфавиту")
+    @DisplayName("Проверка ассортимента товаров по алфавиту")
     @Tag("mainPage")
     void checkGoodsByLetterTest() {
         step("Открытие главной страницы", () -> {
