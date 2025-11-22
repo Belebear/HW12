@@ -15,12 +15,12 @@ import java.util.Map;
 public class BaseTest {
     @BeforeAll
     public static void setUp() {
-        Configuration.browserSize = System.getProperty("browserSize","1920x1080");
-        Configuration.browser = System.getProperty("browser","chrome");
-        Configuration.browserVersion = System.getProperty("browserVersion","127");
+        Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
+        Configuration.browser = System.getProperty("browser", "chrome");
+        Configuration.browserVersion = System.getProperty("browserVersion", "127");
         Configuration.baseUrl = "https://www.rigla.ru";
         Configuration.pageLoadStrategy = "eager";
-        Configuration.remote = System.getProperty("remote","https://user1:1234@selenoid.autotests.cloud/wd/hub");
+        Configuration.remote = System.getProperty("remote", "https://user1:1234@selenoid.autotests.cloud/wd/hub");
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("selenoid:options", Map.<String, Object>of(
@@ -36,7 +36,7 @@ public class BaseTest {
     }
 
     @AfterEach
-    public void closeBrowser(){
+    public void closeBrowser() {
         Attach.screenshotAs("Last screenshot");
         Attach.pageSource();
         Attach.browserConsoleLogs();
