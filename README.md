@@ -2,6 +2,21 @@
 
 > «Ригла» — федеральная аптечная сеть, входящая в число крупнейших компаний фармацевтического ритейла России. Является основой розничного сегмента группы компаний «Протек»
 
+## <a name="Технологии и инструменты">**Технологии и инструменты:**</a>
+
+<p align="center">  
+<a href="https://www.jetbrains.com/idea/"><img src="files/icons/intellij.svg" width="40" height="40"  alt="IDEA"/></a>  
+<a href="https://www.java.com/"><img src="files/icons/java.svg" width="40" height="40"  alt="Java"/></a>  
+<a href="https://github.com/"><img src="files/icons/github.svg" width="40" height="40"  alt="Github"/></a>  
+<a href="https://junit.org/junit5/"><img src="files/icons/junit.svg" width="40" height="40"  alt="JUnit 5"/></a>  
+<a href="https://gradle.org/"><img src="files/icons/gradle.svg" width="40" height="40"  alt="Gradle"/></a>  
+<a href="https://selenide.org/"><img src="files/icons/selenide.svg" width="40" height="40"  alt="Selenide"/></a>  
+<a href="https://aerokube.com/selenoid/"><img src="files/icons/selenoid.svg" width="40" height="40"  alt="Selenoid"/></a>  
+<a href="ht[images](images)tps://github.com/allure-framework/allure2"><img src="files/icons/Allure.svg" width="40" height="40"  alt="Allure"/></a> 
+<a href="https://qameta.io/"><img src="files/icons/Allure_TestOps.svg" width="40" height="40"  alt="Allure TestOps"/></a>   
+<a href="https://www.jenkins.io/"><img src="files/icons/jenkins.svg" width="40" height="40"  alt="Jenkins"/></a>  
+</p>
+
 ## Примеры автоматизированных тест-кейсов:
 - Проверка наличия позиций в выпадющем списке 'Каталог'
 - Проверка наличия категорий на главной странице
